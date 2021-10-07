@@ -15,9 +15,9 @@
     </ul>
 </nav>
 
-<form action="registre.php" method="GET">
+<form action="registre.html" method="GET">
    <div>
-    <td><label> Nom: <input type="text" name="nombre" size="20" required></label></td>
+    <td><label> Nom: <input type="text" name="nom" size="20" required></label></td>
     <td><label>LLinatges: <input type="text" nome="LLinatges" size="20" required></label/td>
 
     <p><label>Sexe:
@@ -29,17 +29,15 @@
     <p>
       </div>
       <td><label> Email:
-        <input type="text" name="El teu mail" size="30" placeholder="El teu mail" required>
+        <input type="email" name="El teu mail" size="30" placeholder="El teu mail" required>
       </label></td>
-      <label for="Contrasenya"> Contrasenya:</label> <input type="password" name="Contrasenya" required pattern="{5,10} id="Contrasenya" size="20">
-      <form action="http://127.0.0.1:5500/registre.html" method="GET">
+      <label for="Contrasenya"> Contrasenya:</label> <input type="password" name="Contrasenya"  minlength="5" maxlength="10"  required pattern="{5,10}" id="Contrasenya" size="20">
+      
 
-        <p><label>Data de Naixament: <input type="date" name="fechaesperada"></label></p>
-        <p><label><input type="checkbox" name="novedades">Estic d'acord amb els termes i condicions</label></p>
+        <p><label>Data de Naixament: <input type="date" name="fechaesperada" required></label></p>
+        <p><label><input required  type="checkbox" name="novedades">Estic d'acord amb els termes i condicions</label></p>
 
-      </form>
-
-      <input type="submit" value="Enviar">
+      <input type="submit" name="enviar" value="Enviar">
     </p>
 
 
