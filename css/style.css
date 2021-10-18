@@ -2,18 +2,86 @@
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    
   }
 
   #menu ul li a{
       text-decoration: none;
       color: blueviolet;
+      padding: 16px 20px;
+  }
+  #menu ul li a:hover{
+      background-color: brown ;
   }
    
   label:focus-within {
       background: cornsilk;
   }
+ 
+  td {
+    border: rgb(80, 66, 42) 2px solid;
+
+  }
+
+ .Seguretat{
+     background: rgb(176, 192, 88);
+     color: white;
+    
+ }
+
+ .Serveis{
+     background: greenyellow;
+     color: white;
+ }
+
+ .Aplicacions{
+     background: lightskyblue;
+     color: white;
+ }
+
+ .EIE{
+     background: mediumorchid;
+     color: white;
+ }
+ .Web{
+     background: seagreen;
+     color: white;
+ }
+
+.Sistemes{
+    background: red;
+    color: white;
+}
+.Hora{
+    background: pink;
+}
+
+.dies{
+    background: pink;
+}
+.horari{
+    background: orange;
+}
+.border{
+    background: saddlebrown;
+}
+.border{
+    border-color: rgb(46, 83, 139);
+}
+table td {
+    text-align: center;
+  }
+ 
+table {
+    background: brown; 
+    
+    border-collapse:  rgb(107, 72, 39);
+  }
+
+.pati{
+    background: white;
+}
