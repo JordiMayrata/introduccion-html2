@@ -1,0 +1,51 @@
+.tabla{
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+td{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+.esquina{
+    border-color: white;
+}
+.celda2{
+    border-top: none;
+    border-bottom: none;
+}
+.celda4{
+    border-left: none;
+    border-right: none;
+}
+.celda6{
+    border-right: none;
+    border-left: none;
+}
+.celda8{
+    border-bottom: none;
+    border-top: none;
+}
+h1{
+    text-align-last: center;
+}
+#menu ul li {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+  }
+  #menu ul li a{
+    text-decoration: none;
+    color: blueviolet;
+    padding: 16px 20px;
+}
+#menu ul li a:hover{
+    background-color: brown ;
+}
