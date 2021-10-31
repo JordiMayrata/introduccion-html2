@@ -1,22 +1,26 @@
 #menu ul li {
-    background-color: #4CAF50; /* Green */
+    background-color: #000000; /* Green */
     border: none;
     color: white;
-    padding: 15px 20px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
-    
+    padding: 14px 0px;
+
   }
+
+#menu ul{
+    padding: 15px;
+    
+}
 
   #menu ul li a{
       text-decoration: none;
-      color: blueviolet;
-      padding: 16px 20px;
+      color: rgb(255, 255, 255);
+      padding: 15px 20px;
   }
   #menu ul li a:hover{
       background-color: brown ;
-  }
+      
+    }
    
   label:focus-within {
       background: cornsilk;
@@ -77,7 +81,7 @@ table td {
   }
  
 table {
-    background: brown; 
+    
     
     border-collapse:  rgb(107, 72, 39);
   }

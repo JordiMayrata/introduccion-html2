@@ -32,9 +32,7 @@ h1{
     text-align-last: center;
 }
 #menu ul li {
-    background-color: #4CAF50; /* Green */
     border: none;
-    color: white;
     padding: 15px 20px;
     text-align: center;
     text-decoration: none;
@@ -43,9 +41,8 @@ h1{
   }
   #menu ul li a{
     text-decoration: none;
-    color: blueviolet;
     padding: 16px 20px;
 }
 #menu ul li a:hover{
-    background-color: brown ;
+    background-color: rgb(179, 179, 179) ;
 }
